@@ -1,0 +1,172 @@
+<footer class="card-footer wrapper" style="padding-top: 50px; box-sizing: border-box;">
+    <div class="container" style="display:flex; height: 100px; padding-top: 32px;">
+        <img src="~/Content/Image/newsletter.png" width="163" height="100" />
+    </div>
+
+    <div class="card-footer information" style="padding: 40px 0px; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; box-sizing: border-box; background-color:white " role="navigation">
+        <div class="container">
+         
+                <div class="col-md-3 d-block">
+                    <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                    <p style="margin-bottom:10px; color:#c4011a; font-size:14px; font-weight: 500; line-height: 18px;">
+                        Hotline chăm sóc khách hàng:
+                        <a style="color:#c4011a" href="tel:1900-6035">1900-6035</a>
+                        <span style="color:#333333" class="smallfont">(1000đ/phút , 8-21h kể cả T7, CN)</span>
+                    </p>
+                    <div style="display:block; margin-bottom:11px; font-size: 12px; font-weight: normal; color:#333333">
+                        <a class="smallfont" href="https://hotro.tiki.vn/hc/vi" target="_blank">Các câu hỏi thường gặp</a><br />
+                        <a class="smallfont" href="https://hotro.tiki.vn/hc/vi/requests/new" target="_blank">Gửi yêu cầu hỗ trợ</a><br />
+                        <a class="smallfont" href="https://hotro.tiki.vn/hc/vi/categories/200126644" target="_blank">Hướng dẫn đặt hàng</a><br />
+                        <a class="smallfont" href="https://hotro.tiki.vn/hc/vi/categories/200123960" target="_blank">Phương thức vận chuyển</a><br />
+                        <a class="smallfont" href="https://tiki.vn/doi-tra-de-dang" target="_blank">Chính sách đổi trả</a><br />
+                        <a class="smallfont" href="https://tiki.vn/chuong-trinh/dieu-kien-tra-gop" target="_blank">Hướng dẫn trả góp</a><br />
+                        <a class="smallfont" href="https://hotro.tiki.vn/hc/vi/articles/360000822643" target="_blank">Chính sách hàng nhập khẩu</a><br />
+                    </div>
+                    <p>
+                        Hỗ trợ khách hàng:
+                        <a href="mailto:hotro@tiki.vn">hotro@tiki.vn</a>
+                    </p>
+                    <p>
+                        Báo lỗi bảo mật:
+                        <a href="mailto:security@tiki.vn">security@tiki.vn</a>
+                    </p>
+                </div>
+                <div class="col-md-2 d-block">
+                    <h4>VỀ TIKI</h4>
+                    <div style="display:block; margin-bottom:11px; font-size: 12px; font-weight: normal; color:#333333">
+                        <a class="smallfont" rel="noreferrer" href="https://tiki.vn/gioi-thieu-ve-tiki" target="_blank">Giới thiệu Tiki</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://tuyendung.tiki.vn" target="_blank">Tuyển Dụng</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://tiki.vn/bao-mat-thanh-toan" target="_blank">Chính sách bảo mật thanh toán</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://tiki.vn/bao-mat-thong-tin-ca-nhan" target="_blank">Chính sách bảo mật thông tin cá nhân</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://hotro.tiki.vn/hc/vi/articles/115005575826" target="_blank">chính sách giải quyết khiếu nại</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://hotro.tiki.vn/hc/vi/articles/201971214" target="_blank">Điều khoản sử dụng</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://hotro.tiki.vn/hc/vi/articles/201710754-Tiki-Xu-l%C3%A0-g%C3%AC-Gi%C3%A1-tr%E1%BB%8B-quy-%C4%91%E1%BB%95i-nh%C6%B0-th%E1%BA%BF-n%C3%A0o" target="_blank">Giới thiệu Tiki Xu</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://tiki.vn/chuong-trinh/ban-hang-doanh-nghiep" target="_blank">Bán hàng doanh nghiệp</a><br />
+                    </div>
+
+                </div>
+                <div class="col-md-2 d-block">
+                    <h4>HỢP TÁC VÀ LIÊN KẾT</h4>
+                    <div style="display:block; margin-bottom:11px; font-size: 11px; font-weight: normal; color:#333333">
+                        <a class="smallfont" rel="noreferrer" href="https://tiki.vn/quy-che-hoat-dong-sgdtmdt" target="_blank">Quy chế hoạt động Sàn GDTMĐT</a><br />
+                        <a class="smallfont" rel="noreferrer" href="https://tiki.vn/ban-hang-cung-tiki" target="_blank">Bán hàng cùng Tiki</a><br />
+                    </div>
+
+                </div>
+                <div class="col-md-3 d-block">
+                    <h4>PHƯƠNG PHÁP THANH TOÁN</h4>
+                    <img src="~/Content/Image/visa.svg" />
+                    <img src="~/Content/Image/mastercard.svg" />
+                    <img src="~/Content/Image/jcb.svg" />
+                    <br />
+                    <img src="~/Content/Image/cash.svg" />
+                    <img src="~/Content/Image/internet-banking.svg" />
+                    <img src="~/Content/Image/installment.svg" />
+
+                </div>
+                <div class="col-md-2 d-block">
+                    <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                    <p>
+                        <a rel="noreferrer" href="https://www.facebook.com/tiki.vn/" target="_blank" title="Facebook">
+                            <img src="~/Content/Image/fb.svg" alt="" />
+                        </a>
+                        <a rel="noreferrer" href="https://www.youtube.com/user/TikiVBlog" target="_blank" title="Youtube">
+                            <img src="~/Content/Image/youtube.svg" />
+                        </a>
+                        <a rel="noreferrer" href="http://zalo.me/589673439383195103" target="_blank" title="Zalo">
+                            <img src="~/Content/Image/zalo.svg" alt="" width="20" />
+                        </a>
+                    </p>
+                    <h4>TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</h4>
+                    <p>
+                        <a rel="noreferrer" href="https://itunes.apple.com/vn/app/id958100553" target="_blank" aria-label="">
+                            <img src="~/Content/Image/appstore.png" width="134" />
+                        </a>
+                        <a rel="noreferrer" href="https://play.google.com/store/apps/details?id=vn.tiki.app.tikiandroid" target="_blank" aria-label="">
+                            <img src="~/Content/Image/playstore.png" width="134" />
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="card-footer address">
+        <div class="container" style="display:flex">
+            <div>
+                <p class="smallfont">
+                    <b>Địa chỉ văn phòng:</b>
+                    52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh
+                </p>
+
+                <p class="smallfont" style="font-size: 11px">
+                    Tiki nhận hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-footer" style="display:flex;justify-content:space-between">
+        <div>
+            <h5>
+                © <b>2016 - Bản quyền của Công Ty Cổ Phần Ti Ki - Tiki.vn</b>
+            </h5>
+            <p style="font-size:11px; margin:0px; font-weight: 300; box-sizing: border-box; line-height:1.15">
+                Giấy chứng nhận Đăng Ký Kinh doanh số 0309532909 do Sở kế hoạc và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010
+            </p>
+        </div>
+        <div class="d-block">
+            <a href="https://hotro.tiki.vn/hc/vi/articles/115005575826" rel="noreferrer" aria-label="">
+                <img src="~/Content/Image/BCT icon.png" width="36" />
+            </a>
+            <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=21201" rel="noreferrer" aria-label="">
+                <img src="~/Content/Image/BCT1.svg" width="120" />
+            </a>
+        </div>
+    </div>
+</footer>
+
+*css Site
+h4 {
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+}
+
+h5 {
+    margin: 0px 0px 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.information {
+    padding: 40px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.address {
+    padding: 40px 0px;
+    background-color: #ffffff;
+    line-height: 1.15;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.smallfont {
+    font-size: 12px;
+    display: block;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.15;
+    color: black;
+}

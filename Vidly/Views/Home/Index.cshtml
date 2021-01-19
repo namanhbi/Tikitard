@@ -1,0 +1,441 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="cuspad col-md-3 custyle">
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">DANH MỤC SẢN PHẨM</h4>
+                <a class="item smallfont" href="#"> Sách Tiếng Việt </a> <br>
+                <a class="item smallfont" href="#"> Văn phòng phẩm </a> <br>
+                <a class="item smallfont" href="#"> Quà lưu niệm </a><br>
+                <a class="item smallfont" href="#"> English Books </a><br>
+            </div>
+            <hr />
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">ĐÁNH GIÁ</h4>
+                <a class="item" href="/">
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="smallfont">từ 5 sao</span>
+                </a><br>
+
+                <a class="item" href="/">
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star-empty gold"></span>
+                    <span class="smallfont">từ 4 sao</span>
+                </a><br>
+
+                <a class="item" href="/">
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star gold"></span>
+                    <span class="glyphicon glyphicon-star-empty gold"></span>
+                    <span class="glyphicon glyphicon-star-empty gold"></span>
+                    <span class="smallfont">từ 3 sao</span>
+                </a><br>
+            </div>
+            <hr />
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">MIỄN PHÍ GIAO HÀNG</h4>
+                <a class="item smallfont" href="/">Có</a>
+            </div>
+            <hr />
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">RẺ HƠN HOÀN TIỀN</h4>
+                <a class="item smallfont" href="/">Có</a>
+            </div>
+            <hr />
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">GIÁ</h4>
+                <p>Chọn khoảng giá</p>
+                <div class="col-sm-4"><input /></div>
+            </div>
+            <br>
+            <hr />
+
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">CÔNG TY PHÁT HÀNH</h4>
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                <div class="read-more-wrap">
+                    <a class="item smallfont" href="#"> Alphabooks </a>
+                    <br>
+                    <a class="item smallfont" href="#"> MCBOOKS </a>
+                    <br>
+                    <a class="item smallfont" href="#"> Nhà xuất bản Kim Đồng </a>
+                    <br>
+                    <a class="item smallfont" href="#"> NXB Trẻ </a>
+                    <br>
+                </div>
+                <button onclick="Learnmore()" id="post-2">Xem thêm</button>
+            </div>
+
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">TÁC GIẢ</h4>
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                <div class="read-more-wrap">
+                    <a class="item smallfont" href="#"> Alphabooks </a>
+                    <br>
+                    <a class="item smallfont" href="#"> MCBOOKS </a>
+                    <br>
+                    <a class="item smallfont" href="#"> Nhà xuất bản Kim Đồng </a>
+                    <br>
+                    <a class="item smallfont" href="#"> NXB Trẻ </a>
+                    <br>
+                </div>
+                <label for="post-2" class="read-more-trigger"></label>
+            </div>
+
+            <div class="d-block p-4 bg-light padblock">
+                <h4 class="cusmargin title">NHÀ CUNG CẤP</h4>
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                <div class="read-more-wrap">
+                    <a class="item smallfont" href="#"> Alphabooks </a>
+                    <br>
+                    <a class="item smallfont" href="#"> MCBOOKS </a>
+                    <br>
+                    <a class="item smallfont" href="#"> Nhà xuất bản Kim Đồng </a>
+                    <br>
+                    <a class="item smallfont" href="#"> NXB Trẻ </a>
+                    <br>
+                </div>
+                <label for="post-2" class="read-more-trigger"></label>
+            </div>
+
+        </div>
+
+        <div class=" cuspad col-md-9 ">
+            @*<h2>
+                    Nhà Sách Tiki
+                </h2>*@
+            <hr />
+
+            @*Slide show*@
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="~/Content/Image/3ec8f9b408012778c2a6c27c5cee5098.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="~/Content/Image/cfaa429de628a690ef7599185e00a51c.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="~/Content/Image/da3d2083b2f6815e44efcf1b4759caf1.jpg" />
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            @*<div class="img btn-block  ">
+                    <a href="/"><img src="~/Content/Image/21a249b92a62268e4d51bf75470370bf.png" /></a>
+                    <a href="/"><img src="~/Content/Image/229de24be8b9b6592f663e67c79aa63b.png" /></a>
+                    <a href="/"><img src="~/Content/Image/68076b684253fb354fc2019795b05afd.png" /></a>
+                </div>*@
+            @*<div id="partners" class="img btn-block">
+                    <div class="logo-image">
+                        <a href="/"><img src="~/Content/Image/147bd239527c5fd9cee7d4a387409d85.png" /></a>
+                    </div>
+                    <div class="logo-image">
+                        <a href="/"><img src="~/Content/Image/92ae42a6ad89b3c73538bfb156219e3e.png" /></a>
+                    </div>
+                    <div class="logo-image">
+                        <a href="/"><img src="~/Content/Image/b0f603781ce07660925e57a54754c04e.png" /></a>
+                    </div>
+                </div>
+                <div id="partners" class="img btn-block ">
+                    <div class="logo-image">
+                        <a href="/"><img src="~/Content/Image/147bd239527c5fd9cee7d4a387409d85.png" /></a>
+                    </div>
+                    <div class="logo-image">
+                        <a href="/"><img src="~/Content/Image/92ae42a6ad89b3c73538bfb156219e3e.png" /></a>
+                    </div>
+                    <div class="logo-image">
+                        <a href="/"><img src="~/Content/Image/b0f603781ce07660925e57a54754c04e.png" /></a>
+                    </div>
+                </div>*@
+
+            @*Button sorting product*@
+
+            <div class="top-buffer btn-block">
+                <n>Sắp xếp theo</n>
+                <button type="button" class="btn btn-primary"> Phổ biến </button>
+                <button type="button" class="btn btn-primary"> Bán chạy </button>
+                <button type="button" class="btn btn-primary"> Hàng mới </button>
+                <button type="button" class="btn btn-primary"> Giá thấp </button>
+                <button type="button" class="btn btn-primary"> Giá cao </button>
+            </div>
+            <hr />
+
+            @*Icon and checkbox*@
+
+            <div class="row">
+                <div class="col-md-3">
+                    <label class="container1">
+                        <img src="~/Content/Image/Tikinowicon.png" width="59" height="17" />
+                        Hàng quốc tế
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="col-md-3">
+                    <label class="container1">
+                        <img src="~/Content/Image/earthicon.png" width="13" height="13" />
+                        Giao nhanh
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="col-md-offset-8">
+                    Bạn muốn giao hàng tới đâu? - <a> NHẬP ĐỊA CHỈ</a>
+                </div>
+            </div>
+
+            <hr />
+
+            @*Image display product*@
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card">
+                                <img src="~/Content/Image/book1.jpg" style="width:100%">
+                                <p class="idname">Mình nói gì khi nói Hạnh phúc</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(4)</span>
+                                <div>59.900 đ</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card rightpad">
+                                <img src="~/Content/Image/book2.jpg" style="width:100%">
+                                <p class="idname">Thay đổi cuộc sống với nhân số học</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(1252)</span>
+                                <div>223.000 đ</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book3.jpg" style="width:100%">
+                                <p class="idname">Sức mạnh của ngôn từ</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(445)</span>
+                                <p>79.900 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book4.jpg" style="width:100%">
+                                <p class="idname">Tô Bình Yên Vẽ Hạnh Phúc</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(1234)</span>
+                                <p>53.700 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book5.jpg" style="width:100%">
+                                <p class="idname">Mình nói gì khi nói Hạnh phúc</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(4)</span>
+                                <p>59.900 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book6.jpg" style="width:100%">
+                                <p class="idname">Thay đổi cuộc sống với nhân số học</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(1252)</span>
+                                <p>223.000 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book7.jpg" style="width:100%">
+                                <p class="idname">Sức mạnh của ngôn từ</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(445)</span>
+                                <p>79.900 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book8.jpg" style="width:100%">
+                                <p class="idname">Tô Bình Yên Vẽ Hạnh Phúc</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(1234)</span>
+                                <p>53.700 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book9.jpg" style="width:100%">
+                                <p class="idname">Mình nói gì khi nói Hạnh phúc</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(4)</span>
+                                <p>59.900 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book10.png" style="width:100%">
+                                <p class="idname">Thay đổi cuộc sống với nhân số học</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(1252)</span>
+                                <p>223.000 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3" >
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book7.jpg" style="width:100%">
+                                <p class="idname">Sức mạnh của ngôn từ</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(445)</span>
+                                <p>79.900 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a target="_blank" class="hvr-glow" href="/">
+                        <div class="logo-image">
+                            <div class="card ">
+                                <img src="~/Content/Image/book8.jpg" style="width:100%">
+                                <p class="idname">Tô Bình Yên Vẽ Hạnh Phúc</p>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star gold"></span>
+                                <span class="glyphicon glyphicon-star-empty gold"></span>
+                                <span class="smallfont">(1234)</span>
+                                <p>53.700 đ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
